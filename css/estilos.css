@@ -1,0 +1,178 @@
+body{
+    font: 15px Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4f4;
+}
+.contenedor{
+    width: 80%;;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+/*encabezado*/
+header{
+    background-color: #24282B;
+    color: #fff;
+    padding: 10px;
+    min-height: 30px;
+    border-bottom: 5px solid #1293d4;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    float: left;
+    padding: 0 20px 0 20px;
+    display: block;
+}
+header #marca{
+    float: left;
+}
+header #marca h1{
+    margin: 0;
+    
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .resaltado, header .actual a{
+    color: #1293d4;
+    font-weight: bold;
+}
+header a:hover{
+    color: #ccc;
+    font-weight: bold;
+}
+/*cabecera con imagen*/
+
+#cabecera h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#cabecera p{
+    font-size: 20px;
+}
+/*cajas*/
+#cajas{
+    margin-top: 20px;
+}
+#cajas .caja{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#cajas .caja p a{
+    font-size: 20px;
+    color: #073c57;
+    text-decoration: none;
+}
+#cajas .caja h2{
+    font-size: 28px;
+}
+
+
+#cajas .caja img{
+    width: 70%;
+    height: 170px;
+    object-fit: cover;
+}
+/*Lateral*/
+aside #lateral{
+    float: right;
+    width: 40%;
+    margin-top: 10px;
+}
+/*main-col*/
+article#main-col{
+    float: left;
+    width: 65%;
+
+}
+/*Servicios*/
+ul#servicios li{
+    list-style: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    background-color: #e6e6e6;
+}
+
+.oscuro{
+    padding: 15px;
+    background-color: #356969;
+    font-family: Arial;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#cajas2{
+    margin-top: 20px;
+}
+#cajas2 .caja2{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#cajas2 .caja2 img{
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+
+}
+#cajas2 .caja2 h1{
+    font-size: 26px;
+    color: #03273a;
+    
+}
+#cajas2 .caja2 p{
+    font-size: 18px;
+    font-family: Arial;
+}
+
+/*footer*/
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #13597c;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
