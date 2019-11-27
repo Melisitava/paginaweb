@@ -2,7 +2,7 @@ body{
     font: 15px Arial, sans-serif;
     padding: 0;
     margin: 0;
-    background-color: #f4f4f4f4;
+    background-color: #81ccf1;
 }
 .contenedor{
     width: 80%;;
@@ -50,25 +50,8 @@ header .resaltado, header .actual a{
 }
 header a:hover{
     color: #1293d4;
-    
     font-weight: bold;
 }
-/*.menu a span {
-    margin-left: 10px;
-    color: #fff;
-}*/
-
-.menu li ul{
-    display: none;
-}
-
-.menu ul li:hover ul {
-    display: block;
-    position: absolute;
-}
-
-/*cabecera con imagen*/
-
 #cabecera h1{
     margin-top: 100px;
     font-size: 55px;
@@ -101,6 +84,7 @@ header a:hover{
     width: 70%;
     height: 170px;
     object-fit: cover;
+
 }
 /*Lateral*/
 aside #lateral{
@@ -110,10 +94,10 @@ aside #lateral{
 }
 /*main-col*/
 article#main-col{
-    float: left;
+    float: unset;
     width: 65%;
-
 }
+
 /*Servicios*/
 ul#servicios li{
     list-style: none;
@@ -125,10 +109,10 @@ ul#servicios li{
 
 .oscuro{
     padding: 15px;
-    background-color: #356969;
+    
     font-family: Arial;
     font-size: 18px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -166,28 +150,3 @@ footer{
     text-align: center;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
