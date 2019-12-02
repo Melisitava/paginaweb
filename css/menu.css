@@ -8,13 +8,13 @@
 header{
     width: 100%;
     height: 60px;
-    background: #1e1e1e;
+    background: #1e1e1eef;
     position: fixed;
     z-index: 100;
 }
 
 .img-logo{
-    width: 45px;
+    width: 60px;
     margin-left: 2%;
     padding: 10px;
 }
